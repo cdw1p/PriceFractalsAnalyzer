@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/cdw1p/PriceFractalsAnalyzer#readme",
   "dependencies": {
-    "cctx": "^1.0.1",
-    "ccxt": "^4.2.85"
+    "ccxt": "^4.2.85",
+    "pricefractalsanalyzer": "^1.0.0"
   }
 }
