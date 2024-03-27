@@ -1,0 +1,29 @@
+{
+  "name": "pricefractalsanalyzer",
+  "version": "1.0.0",
+  "description": "Identify price fractals using Depth-First Search with Fibonacci Numbers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fibonacci",
+    "price-fractals",
+    "depth-first-search"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdw1p/PriceFractalsAnalyzer.git"
+  },
+  "author": "cdw1p",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdw1p/PriceFractalsAnalyzer/issues"
+  },
+  "homepage": "https://github.com/cdw1p/PriceFractalsAnalyzer#readme",
+  "dependencies": {
+    "cctx": "^1.0.1",
+    "ccxt": "^4.2.85"
+  }
+}
