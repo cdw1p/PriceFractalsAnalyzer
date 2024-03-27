@@ -22,7 +22,7 @@ const limit = 1000
 const historicalData = await exchange.fetchOHLCV(symbol, timeframe, undefined, limit)
 
 /**
- * Find maximum subarray
+ * Find fractals and predict the next price
  */
 const analyzer = new PriceFractalsAnalyzer(historicalData)
 const prediction = analyzer.analyzeFractals()
